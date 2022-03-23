@@ -1,11 +1,12 @@
 import React from 'react';
 import './App.css';
+import About from './components/About';
 
 function App() {
   return (
-    <h1 className="text-3xl font-bold underline text-red-600">
-      Simple React Typescript Tailwind Sample
-    </h1>
+    <div className="min-h-screen py-10 px-3 sm:px-5 bg-gray-100">
+      <About title="Ethan" description="Backend Developer/System Administrator" />
+    </div>
   );
 }
 
